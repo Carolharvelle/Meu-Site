@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Meus Projetos</title>
+
+    <style>
+        /* Estilização exclusiva para a área de projetos */
+        .sessao-projetos {
+            background-color: #f6f8fa; /* Tom cinza claro estilo GitHub */
+            padding: 40px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh; /* Garante que o fundo cubra a tela toda */
+        }
+
+        .card-projeto {
+            background: rgb(68, 68, 68);
+            border: 1px solid #6c6e6e;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 300px;
+            margin: 20px auto;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            color: white; /* Adicionado para melhor leitura sobre o fundo escuro */
+        }
+
+        /* Efeito de hover para dar interatividade */
+        .card-projeto:hover {
+            transform: translateY(-5px);
+            border-color: #8c4cf5; 
+        }
+
+        .botao-github {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #24292f;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .botao-github:hover {
+            background-color: #ae18db;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="meus-projetos" class="sessao-projetos">
+        <h2>Meus Projetos</h2>
+        
+        <div class="card-projeto">
+            <h3>Meu Repositório</h3>
+            <p>Descrição breve da tecnologia usada (ex: React, SQL, HTML/CSS).</p>
+            <a href="https://github.com/Carolharvelle?tab=repositories" target="_blank" class="botao-github">
+                Ver no GitHub
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>

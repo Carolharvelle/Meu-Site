@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>contatos</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #1a1a1a;
+        }
+
+        .sessao-contato {
+            background-color: #1a1a1a; 
+            padding: 40px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+        }
+
+        /* AJUSTE: Cor branca para o título principal */
+        .sessao-contato h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .card-contato {
+            background: rgb(68, 68, 68); 
+            border: 1px solid #6c6e6e;
+            border-radius: 10px;
+            padding: 25px;
+            max-width: 380px; 
+            margin: 20px auto;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            color: white;
+        }
+
+        .card-contato:hover {
+            transform: translateY(-5px);
+            border-color: #8c4cf5;
+        }
+
+        .botao-contato {
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            gap: 10px; 
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #24292f;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        .botao-contato i {
+            font-size: 1.2rem; 
+        }
+
+        .botao-contato:hover {
+            background-color: #ae18db;
+        }
+    </style>
+</head>
+<body>
+
+<section id="contato" class="sessao-contato">
+    <h2>Contato</h2>
+    
+    <div class="card-contato">
+        <h3>Redes Sociais & Canais</h3>
+        <p>Sinta-se à vontade para se conectar comigo!</p>
+        
+        <a href="https://www.linkedin.com/in/jcaroliner/" target="_blank" class="botao-contato">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/caroldesenvolvendo" target="_blank" class="botao-contato">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+
+        <a href="https://www.youtube.com/@carolinecation44" target="_blank" class="botao-contato">
+            <i class="fab fa-youtube"></i> YouTube
+        </a>
+
+        <a href="mailto:harvelleworks@gmail.com" class="botao-contato">
+            <i class="fas fa-envelope"></i> E-mail
+        </a>
+
+        <a href="https://wa.me/5519989453167" target="_blank" class="botao-contato">
+            <i class="fab fa-whatsapp"></i> WhatsApp: (19) 98945-3167
+        </a>
+    </div>
+</section>
+
+</body>
+</html>
